@@ -187,7 +187,7 @@ const MyWidget = () => {
                 */
               }
               <a
-                href="http://localhost:5173"
+                href="https://www.snipplyextension.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-1 py-1 rounded-full flex gap-2 items-center bg-neutral-700 cursor-pointer"
