@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Snipply",
+  "version": "1.0",
+  "description": "Bookmark ChatGPT prompts with one click using Snipply! Keep everything local and secure — no account or cloud storage needed.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["output.css"],
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ]
+    }
+  ]
+}

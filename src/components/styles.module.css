@@ -1,0 +1,78 @@
+/* H1 */
+.markdown h1:first-child {
+    margin-top: 0 !important;
+  }
+  
+  .markdown h1 {
+    font-weight: 600 !important;
+    margin-top: 0 !important;
+    font-size: 1.875rem !important;
+  }
+  
+  /* H2 */
+  .markdown h2 {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+  }
+  
+  /* H3 */
+  .markdown h3 {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+  }
+  
+  /* Ordered Lists */
+  .markdown ol {
+    list-style-type: decimal !important;
+    padding-left: 2.225em !important;
+  }
+  
+  .markdown ol li {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  
+  /* Unordered Lists */
+  .markdown ul {
+    list-style-type: disc !important;
+    padding-left: 2.225em !important;
+  }
+  
+  .markdown ul li::marker {
+    unicode-bidi: isolate !important;
+    font-variant-numeric: tabular-nums !important;
+    text-transform: none !important;
+    text-indent: 0 !important;
+    text-align: start !important;
+    text-align-last: start !important;
+  }
+  
+  .markdown ul li {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  
+  /* Table */
+  .markdown table {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-top: 8px !important;
+    border-spacing: 0 !important;
+    padding: 4px !important;
+  }
+  
+  .markdown th,
+  .markdown td {
+    border-width: 1px !important;
+  }
+  
+  .markdown th:first-child {
+    border-radius: 5px !important;
+  }
+  
+  .markdown th:last-child,
+  .markdown td:last-child {
+    border-right-width: 1px !important;
+    border-left-width: 1px !important;
+  }
+  

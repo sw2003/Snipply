@@ -1,0 +1,9 @@
+.bookmark-hover-highlight {
+  color: rgb(255, 230, 128) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bookmark-hover-highlight {
+    color: rgb(255, 230, 128) !important;
+  }
+}
