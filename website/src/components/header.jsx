@@ -95,7 +95,7 @@ export default function Header() {
             Install for Chrome
           </a>
           <a
-            href="https://github.com/your/repo" // replace with real URL
+            href="https://github.com/sw2003/Snipply" // replace with real URL
             target="_blank"
             rel="noopener noreferrer"
             className="w-full text-center px-4 py-2 rounded-lg border border-neutral-300 hover:bg-neutral-100"

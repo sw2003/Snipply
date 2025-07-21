@@ -26,13 +26,15 @@ export default function Hero() {
             </div>
 
             <div className="max-w-[268px] w-full mt-4 border border-black bg-neutral-800 text-neutral-100 rounded p-2 flex justify-center items-center gap-2 md:max-w-[468px] md:py-4 xl:ml-8 xl:max-w-[668px] xl:py-8 xl:text-2xl cursor-pointer">
-                <span>Github Repository</span>
-                <div className="lg:hidden">
-                    <FaGithub size={20}></FaGithub>
-                </div>
-                <div className="hidden lg:block">
-                    <FaGithub size={35}></FaGithub>
-                </div>
+                <a href="https://github.com/sw2003/Snipply" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2">
+                    <span>Github Repository</span>
+                    <div className="lg:hidden">
+                        <FaGithub size={20} />
+                    </div>
+                    <div className="hidden lg:block">
+                        <FaGithub size={35} />
+                    </div>
+                </a>
             </div>
 
 
